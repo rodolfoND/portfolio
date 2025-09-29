@@ -65,7 +65,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <ThemeProvider defaultTheme="light">
+        <ThemeProvider defaultTheme="dark">
           {children}
         </ThemeProvider>
       </body>

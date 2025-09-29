@@ -20,12 +20,12 @@ export function HeroSection() {
   }
 
   return (
-    <section id="início" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="início" className="min-h-screen flex items-center justify-center relative overflow-hidden w-full">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-blue-50 dark:to-blue-950/30" />
       
       {/* Floating background elements */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 overflow-hidden">
         {floatingIcons.map((item, index) => (
           <motion.div
             key={index}

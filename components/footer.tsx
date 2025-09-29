@@ -11,8 +11,8 @@ export function Footer() {
   }
 
   return (
-    <footer className="bg-muted/50 border-t">
-      <div className="container mx-auto px-4 py-12">
+    <footer className="bg-muted/50 border-t w-full overflow-x-hidden">
+      <div className="container mx-auto px-4 py-12 max-w-full">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <motion.div

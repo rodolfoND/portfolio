@@ -13,8 +13,8 @@ export function AboutSection() {
   ]
 
   return (
-    <section id="sobre" className="py-20 bg-muted/30">
-      <div className="container mx-auto px-4">
+    <section id="sobre" className="py-20 bg-muted/30 w-full overflow-x-hidden">
+      <div className="container mx-auto px-4 max-w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
