@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Rodolfo Nascimento',
   description: 'Rodolfo Nascimento, desenvolvedor de software, especialista em inteligência artificial (IA) e entusiasta de tecnologia em Pará de Minas, MG',
   alternates: {
-    canonical: 'https://www.rodolfonascimento.dev',
+    canonical: 'https://rodolfonascimento.dev.br',
   },
   other: {
     'http-equiv': 'X-UA-Compatible',
@@ -47,7 +47,7 @@ export default function RootLayout({
     "@type": "Person",
     "name": "Rodolfo Nascimento",
     "description": "Desenvolvedor de software, especialista em inteligência artificial (IA) e entusiasta de tecnologia",
-    "image": "https://www.rodolfonascimento.dev/og-image.png",
+    "image": "https://i.ibb.co/YFmJf8yh/Whats-App-Image-2025-09-25-at-17-31-47.jpg" alt="Whats-App-Image-2025-09-25-at-17-31-47",
     "jobTitle": "Desenvolvedor de Software",
     "address": {
       "@type": "PostalAddress",
@@ -55,7 +55,7 @@ export default function RootLayout({
       "addressRegion": "MG",
       "addressCountry": "BR"
     },
-    "url": "https://www.rodolfonascimento.dev"
+    "url": "https://rodolfonascimento.dev.br"
   }
 
   return (
