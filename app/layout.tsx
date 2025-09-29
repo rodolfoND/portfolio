@@ -47,7 +47,7 @@ export default function RootLayout({
     "@type": "Person",
     "name": "Rodolfo Nascimento",
     "description": "Desenvolvedor de software, especialista em inteligência artificial (IA) e entusiasta de tecnologia",
-    "image": "https://i.ibb.co/YFmJf8yh/Whats-App-Image-2025-09-25-at-17-31-47.jpg" alt="Whats-App-Image-2025-09-25-at-17-31-47",
+    "image": "https://i.ibb.co/YFmJf8yh/Whats-App-Image-2025-09-25-at-17-31-47.jpg",
     "jobTitle": "Desenvolvedor de Software",
     "address": {
       "@type": "PostalAddress",
