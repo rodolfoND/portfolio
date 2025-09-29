@@ -10,34 +10,49 @@ import { ImageWithFallback } from './ui/ImageWithFallback'
 export function ProjectsSection() {
   const projects = [
     {
-      title: 'E-commerce Platform',
-      description: 'Plataforma completa de e-commerce com pagamentos integrados, dashboard administrativo e sistema de inventário.',
-      image: 'https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjB3b3Jrc3BhY2UlMjBjb2Rpbmd8ZW58MXx8fHwxNzU4NjM4MDYyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      technologies: ['React', 'Next.js', 'Stripe', 'PostgreSQL', 'Tailwind'],
-      github: '#',
-      demo: '#',
-      featured: true,
-      stats: { stars: 45, forks: 12 }
+      title: 'E-commerce de Cursos Online',
+      description: 'Plataforma de e-commerce para grande rede de escolas de educação profissional.',
+      image: 'https://plus.unsplash.com/premium_photo-1681488350342-19084ba8e224?q=80&w=1088&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      technologies: ['React', 'Java Spring Boot', 'Azure', 'PostgreSQL', 'Material-UI'],
+      featured: true
     },
     {
-      title: 'Task Management App',
-      description: 'Aplicativo de gerenciamento de tarefas com colaboração em tempo real, notificações e relatórios.',
-      image: 'https://images.unsplash.com/photo-1754738381783-f9a2847bfef2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwYmFja2dyb3VuZCUyMGFic3RyYWN0fGVufDF8fHx8MTc1ODYzODA2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Material-UI'],
-      github: '#',
-      demo: '#',
+      title: 'Centro de Operações Integrado',
+      description: 'Plataforma de monitoramento e gerenciamento de operações de multinacional do ramo metalúrgico.',
+      image: 'https://plus.unsplash.com/premium_photo-1683880731785-e5b632e0ea13?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      technologies: ['React', 'Python', 'PostgreSQL', 'TypeScript', 'AWS', 'Serverless', 'Lambda'],
       featured: false,
-      stats: { stars: 32, forks: 8 }
     },
     {
-      title: 'Portfolio Website',
-      description: 'Website portfolio responsivo com animações avançadas e sistema de contato integrado.',
-      image: 'https://images.unsplash.com/photo-1675277714353-376f525d935a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGRldmVsb3BlcnxlbnwxfHx8fDE3NTg1OTkzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      technologies: ['Next.js', 'Framer Motion', 'Tailwind', 'TypeScript'],
-      github: '#',
-      demo: '#',
+      title: 'Sistema para Consultoria Financeira',
+      description: 'Website para uma empresa de consultoria financeira para oficinas mecânicas.',
+      image: 'https://sistema.paulomaiaconsultoria.com.br/images/logo_black.png',
+      technologies: ['React', 'Firebasee', 'TypeScript', 'Vercel'],
+      demo: 'https://sistema.paulomaiaconsultoria.com.br',
       featured: false,
-      stats: { stars: 28, forks: 15 }
+    },
+    {
+      title: 'Sistema para Controle de Alimentação Diário',
+      description: 'Sistema para controle de alimentação diário pessoal, desenvolvido com o objetivo de controlar os alimentos ingeridos cada dia, para controle nutricional.',
+      image: 'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=410&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      technologies: ['React', 'Firebasee', 'TypeScript', 'Vercel'],
+      demo: 'https://daily-food.vercel.app/',
+      featured: false,
+    },
+    {
+      title: 'Sistema para Controle Financeiro',
+      description: 'Sistema para controle financeiro pessoal, desenvolvido com o objetivo de controlar as finanças pessoais.',
+      image: 'https://images.unsplash.com/photo-1579621970795-87facc2f976d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      technologies: ['React', 'Firebasee', 'TypeScript', 'Vercel'],
+      demo: 'https://max-money-xi.vercel.app/',
+      featured: false,
+    },
+    {
+      title: 'Sistema para Controle de Estoque',
+      description: 'Sistema para controle de estoque de cilindros de laminação para uma multinacional do ramo siderúrgico.',
+      image: 'https://plus.unsplash.com/premium_photo-1661963449696-89b762c74a32?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      technologies: ['React', 'PostgreSQL', 'Java Spring Boot', 'AWS'],
+      featured: false,
     },
   ]
 
@@ -55,7 +70,8 @@ export function ProjectsSection() {
             Meus <span className="text-[#1e40af]">Projetos</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Alguns dos projetos que desenvolvi recentemente
+            Por motivos de privacidade, não é possível exibir todos os projetos. 
+            Mas vou compartilhar alguns dos que desenvolvi recentemente.
           </p>
         </motion.div>
 
@@ -104,12 +120,6 @@ export function ProjectsSection() {
                   <CardHeader className="p-0 mb-4">
                     <div className="flex items-center justify-between mb-2">
                       <h3 className="text-xl font-bold text-[#1e40af]">{project.title}</h3>
-                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                        <Star className="w-4 h-4" />
-                        <span>{project.stats.stars}</span>
-                        <span>•</span>
-                        <span>{project.stats.forks} forks</span>
-                      </div>
                     </div>
                     <p className="text-muted-foreground">{project.description}</p>
                   </CardHeader>
@@ -132,6 +142,7 @@ export function ProjectsSection() {
                     </div>
                   </div>
 
+                  {project.demo && (
                   <div className="flex gap-3">
                     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                       <Button 
@@ -145,21 +156,8 @@ export function ProjectsSection() {
                         </a>
                       </Button>
                     </motion.div>
-                    
-                    <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                      <Button 
-                        variant="outline" 
-                        size="sm"
-                        className="border-[#1e40af] text-[#1e40af] hover:bg-[#1e40af] hover:text-white"
-                        asChild
-                      >
-                        <a href={project.github} target="_blank" rel="noopener noreferrer">
-                          <Github className="w-4 h-4 mr-2" />
-                          Código
-                        </a>
-                      </Button>
-                    </motion.div>
                   </div>
+                  )}
                 </CardContent>
               </Card>
             </motion.div>

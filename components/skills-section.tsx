@@ -11,10 +11,14 @@ export function SkillsSection() {
       icon: '🎨',
       skills: [
         { name: 'React', level: 95 },
-        { name: 'Next.js', level: 90 },
-        { name: 'TypeScript', level: 88 },
-        { name: 'Tailwind CSS', level: 92 },
-        { name: 'Framer Motion', level: 85 },
+        { name: 'Next.js', level: 95 },
+        { name: 'TypeScript', level: 90 },
+        { name: 'Tailwind CSS', level: 90 },
+        { name: 'Vue.js', level: 80 },
+        { name: 'Angular', level: 70 },
+        { name: 'Flutter', level: 80 },
+        { name: 'React Native', level: 90 },
+        { name: 'WordPress', level: 70 },
       ]
     },
     {
@@ -22,10 +26,14 @@ export function SkillsSection() {
       icon: '⚙️',
       skills: [
         { name: 'Node.js', level: 90 },
-        { name: 'Express', level: 88 },
-        { name: 'PostgreSQL', level: 85 },
-        { name: 'MongoDB', level: 82 },
-        { name: 'Prisma', level: 87 },
+        { name: 'Express', level: 80 },
+        { name: 'PostgreSQL', level: 95 },
+        { name: 'MongoDB', level: 80 },
+        { name: 'Java Spring Boot', level: 95 },
+        { name: 'Python', level: 90 },
+        { name: 'PHP', level: 80 },
+        { name: 'C#', level: 80 },
+        { name: 'SQL Server', level: 95 },
       ]
     },
     {
@@ -33,18 +41,25 @@ export function SkillsSection() {
       icon: '🛠️',
       skills: [
         { name: 'Git', level: 95 },
-        { name: 'Docker', level: 80 },
-        { name: 'AWS', level: 75 },
-        { name: 'Vercel', level: 90 },
-        { name: 'GitHub Actions', level: 78 },
+        { name: 'Docker', level: 90 },
+        { name: 'AWS', level: 90 },
+        { name: 'Vercel', level: 95 },
+        { name: 'Inteligência Artificial', level: 95 },
+        { name: 'Azure', level: 90 },
+        { name: 'GCP', level: 90 },
+        { name: 'GitLab', level: 80 },
+        { name: 'Firebase', level: 95 },
       ]
     },
   ]
 
   const technologies = [
     'React', 'Next.js', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL',
-    'MongoDB', 'Tailwind CSS', 'Framer Motion', 'Docker', 'AWS', 'Vercel',
-    'Git', 'GitHub Actions', 'Prisma', 'Supabase', 'Firebase', 'Stripe'
+    'MongoDB', 'Java Spring Boot', 'Python', 'PHP', 'C#', 'SQL Server',
+     'Tailwind CSS', 'Azure', 'Docker', 'AWS', 'Vercel', 'Angular', 'Vue.js', 
+     'Flutter', 'React Native', 'WordPress',
+    'Git', 'GitHub Actions', 'GCP', 'Inteligência Artificial', 'Firebase', 
+    'Gitlab', 'Scrum', 'Lean Kanban', 'Kanban'
   ]
 
   return (

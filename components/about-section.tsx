@@ -1,15 +1,15 @@
 'use client'
 
 import { motion } from 'motion/react'
-import { Code2, Users, Award, Coffee } from 'lucide-react'
+import { Code2, Users, Award, Gamepad2 } from 'lucide-react'
 import { Card, CardContent } from './ui/card'
 
 export function AboutSection() {
   const stats = [
-    { icon: Code2, label: 'Projetos Concluídos', value: '50+', color: 'text-[#1e40af]' },
-    { icon: Users, label: 'Clientes Satisfeitos', value: '30+', color: 'text-[#3b82f6]' },
-    { icon: Award, label: 'Anos de Experiência', value: '5+', color: 'text-[#1e40af]' },
-    { icon: Coffee, label: 'Xícaras de Café', value: '∞', color: 'text-[#3b82f6]' },
+    { icon: Code2, label: 'Projetos Concluídos', value: '20+', color: 'text-[#1e40af]' },
+    { icon: Users, label: 'Clientes Satisfeitos', value: '50+', color: 'text-[#3b82f6]' },
+    { icon: Award, label: 'Anos de Experiência', value: '13+', color: 'text-[#1e40af]' },
+    { icon: Gamepad2, label: 'Gameplays para relaxar', value: '∞', color: 'text-[#3b82f6]' },
   ]
 
   return (
@@ -40,19 +40,26 @@ export function AboutSection() {
             <h3 className="text-2xl font-bold mb-6 text-[#1e40af]">Minha Jornada</h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Olá! Sou Rodolfo Nascimento, um desenvolvedor full-stack com mais de 5 anos de experiência 
+                Olá! Sou Rodolfo Nascimento, um desenvolvedor full-stack com mais de 13 anos de experiência 
                 criando aplicações web modernas e eficientes. Minha paixão pela programação começou 
-                ainda na universidade e desde então venho me especializando em tecnologias como 
-                React, Node.js e TypeScript.
+                ainda na adolescência e desde então venho me especializando em tecnologias como 
+                React, Java, TypeScript e Inteligência Artificial.
               </p>
               <p>
                 Acredito que a tecnologia deve ser uma ferramenta para resolver problemas reais 
                 e melhorar a vida das pessoas. Por isso, busco sempre criar soluções que sejam 
-                não apenas funcionais, mas também intuitivas e acessíveis.
+                não apenas funcionais, mas também intuitivas e acessíveis, 
+                além de sempre estar atento aos avanços tecnológicos e a novas tendências.
               </p>
               <p>
-                Quando não estou codando, gosto de estudar novas tecnologias, contribuir para 
-                projetos open source e compartilhar conhecimento através de artigos e palestras.
+              Sou um entusiasta de tecnologia com habilidades comprovadas em desenvolvimento de software, 
+              liderança, modelagem de dados, inteligência artificial e confiabilidade. 
+              Meu objetivo é contribuir para a evolução tecnológica das empresas, 
+              sempre focado em entregar soluções inovadoras e de alta qualidade.
+              </p>
+              <p>
+              Vamos conectar e explorar como podemos colaborar para impulsionar a transformação digital 
+              e a inovação tecnológica de sua empresa!
               </p>
             </div>
           </motion.div>
@@ -70,12 +77,14 @@ export function AboutSection() {
                 <h4 className="text-xl font-bold mb-6 text-[#1e40af]">Principais Competências</h4>
                 <div className="space-y-4">
                   {[
-                    'Desenvolvimento Frontend com React, Next.js e TypeScript',
-                    'Backend com Node.js, Express e APIs RESTful',
-                    'Bancos de dados SQL e NoSQL (PostgreSQL, MongoDB)',
-                    'DevOps e Deploy (Docker, AWS, Vercel)',
-                    'UI/UX Design e prototipagem',
-                    'Metodologias ágeis e trabalho em equipe'
+                    'Desenvolvimento Frontend com React, Next.js, Vue.js e TypeScript',
+                    'Backend com Node.js, Express, Java Spring Boot, Python e APIs RESTful',
+                    'Aplicações Mobile com React Native e Flutter',
+                    'Bancos de dados SQL e NoSQL (SQL Server, PostgreSQL, MongoDB)',
+                    'DevOps e Deploy (Docker, AWS, Vercel, Azure, GCP)',
+                    'Metodologias ágeis e trabalho em equipe',
+                    'Inteligência Artificial e Machine Learning',
+                    'Confiança e Segurança na tecnologia',
                   ].map((skill, index) => (
                     <motion.div
                       key={index}

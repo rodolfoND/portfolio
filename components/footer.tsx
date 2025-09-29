@@ -39,7 +39,7 @@ export function Footer() {
           >
             <h4 className="font-bold mb-4 text-[#1e40af]">Links Rápidos</h4>
             <div className="space-y-2">
-              {['Início', 'Sobre', 'Skills', 'Projetos', 'Contato'].map((item) => (
+              {['Início', 'Sobre', 'Skills', 'Projetos', 'Podcasts', 'Contato'].map((item) => (
                 <motion.button
                   key={item}
                   onClick={() => {

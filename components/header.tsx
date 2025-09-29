@@ -29,7 +29,7 @@ export function Header() {
         </motion.div>
         
         <nav className="hidden md:flex items-center space-x-8">
-          {['início', 'sobre', 'skills', 'projetos', 'contato'].map((item) => (
+          {['início', 'sobre', 'skills', 'projetos', 'podcasts', 'contato'].map((item) => (
             <motion.button
               key={item}
               onClick={() => scrollToSection(item)}
