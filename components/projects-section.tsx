@@ -96,6 +96,9 @@ export function ProjectsSection() {
                   <ImageWithFallback
                     src={project.image}
                     alt={project.title}
+                    width={1088}
+                    height={320}
+                    loading="lazy"
                     className="w-full h-64 md:h-80 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />

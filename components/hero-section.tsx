@@ -165,6 +165,9 @@ export function HeroSection() {
               <ImageWithFallback
                 src="/foto.png"
                 alt="Rodolfo Nascimento - Desenvolvedor"
+                width={320}
+                height={320}
+                priority={true}
                 className="w-80 h-80 object-cover rounded-full border-4 border-white dark:border-gray-800 shadow-2xl relative z-10"
               />
             </motion.div>
