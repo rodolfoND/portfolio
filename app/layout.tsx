@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
 
+export const dynamic = 'force-static'
+export const revalidate = false
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://rodolfonascimento.dev.br'),
   title: {

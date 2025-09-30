@@ -19,9 +19,14 @@ const nextConfig = {
       },
     ],
     formats: ["image/avif", "image/webp"],
+    unoptimized: false,
   },
   compress: true,
   poweredByHeader: false,
+  reactStrictMode: true,
+  generateBuildId: async () => {
+    return "rodolfo-nascimento-" + Date.now();
+  },
 };
 
 module.exports = nextConfig;

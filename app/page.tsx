@@ -7,6 +7,9 @@ import { PodcastsSection } from '@/components/podcasts-section'
 import { ContactSection } from '@/components/contact-section'
 import { Footer } from '@/components/footer'
 
+export const dynamic = 'force-static'
+export const revalidate = false
+
 export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden w-full">
