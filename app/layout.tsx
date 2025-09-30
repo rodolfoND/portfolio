@@ -3,18 +3,28 @@ import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
 
 export const metadata: Metadata = {
-  title: 'Rodolfo Nascimento',
-  description: 'Rodolfo Nascimento, desenvolvedor de software, especialista em inteligência artificial (IA) e entusiasta de tecnologia em Pará de Minas, MG',
+  metadataBase: new URL('https://rodolfonascimento.dev.br'),
+  title: {
+    default: 'Rodolfo Nascimento | Desenvolvedor de Software',
+    template: '%s | Rodolfo Nascimento'
+  },
+  description: 'Desenvolvedor de Software especialista em React, Java e Inteligência Artificial. Transformando ideias em experiências digitais incríveis em Pará de Minas, MG.',
+  keywords: ['Desenvolvedor de Software', 'React', 'Java', 'TypeScript', 'Inteligência Artificial', 'IA', 'Web Development', 'Pará de Minas', 'Minas Gerais', 'Rodolfo Nascimento'],
+  authors: [{ name: 'Rodolfo Nascimento' }],
+  creator: 'Rodolfo Nascimento',
   alternates: {
     canonical: 'https://rodolfonascimento.dev.br',
-  },
-  other: {
-    'http-equiv': 'X-UA-Compatible',
-    content: 'IE=edge',
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
   icons: {
     icon: [
@@ -25,15 +35,26 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   openGraph: {
-    title: 'Rodolfo Nascimento',
-    description: 'Rodolfo Nascimento, desenvolvedor de software, especialista em inteligência artificial (IA) e entusiasta de tecnologia em Pará de Minas, MG',
-    images: 'https://i.ibb.co/YFmJf8yh/Whats-App-Image-2025-09-25-at-17-31-47.jpg" alt="Whats-App-Image-2025-09-25-at-17-31-47',
+    type: 'website',
+    locale: 'pt_BR',
+    url: 'https://rodolfonascimento.dev.br',
+    title: 'Rodolfo Nascimento | Desenvolvedor de Software',
+    description: 'Desenvolvedor de Software especialista em React, Java e Inteligência Artificial. Transformando ideias em experiências digitais incríveis.',
+    siteName: 'Rodolfo Nascimento',
+    images: [
+      {
+        url: 'https://rodolfonascimento.dev.br/foto.png',
+        width: 1200,
+        height: 630,
+        alt: 'Rodolfo Nascimento - Desenvolvedor de Software',
+      }
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Rodolfo Nascimento',
-    description: 'Rodolfo Nascimento, desenvolvedor de software, especialista em inteligência artificial (IA) e entusiasta de tecnologia em Pará de Minas, MG',
-    images: 'https://i.ibb.co/YFmJf8yh/Whats-App-Image-2025-09-25-at-17-31-47.jpg" alt="Whats-App-Image-2025-09-25-at-17-31-47',
+    title: 'Rodolfo Nascimento | Desenvolvedor de Software',
+    description: 'Desenvolvedor de Software especialista em React, Java e Inteligência Artificial.',
+    images: ['https://rodolfonascimento.dev.br/foto.png'],
   },
 }
 
@@ -46,16 +67,26 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Rodolfo Nascimento",
-    "description": "Desenvolvedor de software, especialista em inteligência artificial (IA) e entusiasta de tecnologia",
-    "image": "https://i.ibb.co/YFmJf8yh/Whats-App-Image-2025-09-25-at-17-31-47.jpg",
-    "jobTitle": "Desenvolvedor de Software",
+    "description": "Desenvolvedor Full Stack especialista em React, Java e Inteligência Artificial",
+    "image": "https://rodolfonascimento.dev.br/foto.png",
+    "jobTitle": "Desenvolvedor Full Stack",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Freelancer"
+    },
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Pará de Minas",
       "addressRegion": "MG",
       "addressCountry": "BR"
     },
-    "url": "https://rodolfonascimento.dev.br"
+    "url": "https://rodolfonascimento.dev.br",
+    "sameAs": [
+      "https://github.com/rodolfoND",
+      "https://www.linkedin.com/in/rodolfo-nascimento-57b701100/"
+    ],
+    "knowsAbout": ["React", "Java", "TypeScript", "JavaScript", "Inteligência Artificial", "Full Stack Development"],
+    "email": "rodolfo.nascimento@hotmail.com"
   }
 
   return (

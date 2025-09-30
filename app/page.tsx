@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden w-full">
       <Header />
-      <main className="w-full overflow-x-hidden">
+      <main className="w-full overflow-x-hidden" id="main-content">
         <HeroSection />
         <AboutSection />
         <SkillsSection />
