@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: 'Rodolfo Nascimento',
     images: [
       {
-        url: 'https://rodolfonascimento.dev.br/foto.png',
+        url: 'https://i.ibb.co/YFmJf8yh/Whats-App-Image-2025-09-25-at-17-31-47.jpg',
         width: 1200,
         height: 630,
         alt: 'Rodolfo Nascimento - Desenvolvedor de Software',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Rodolfo Nascimento | Desenvolvedor de Software',
     description: 'Desenvolvedor de Software especialista em React, Java e Inteligência Artificial.',
-    images: ['https://rodolfonascimento.dev.br/foto.png'],
+    images: ['https://i.ibb.co/YFmJf8yh/Whats-App-Image-2025-09-25-at-17-31-47.jpg'],
   },
 }
 
@@ -71,7 +71,7 @@ export default function RootLayout({
     "@type": "Person",
     "name": "Rodolfo Nascimento",
     "description": "Desenvolvedor Full Stack especialista em React, Java e Inteligência Artificial",
-    "image": "https://rodolfonascimento.dev.br/foto.png",
+    "image": "https://i.ibb.co/YFmJf8yh/Whats-App-Image-2025-09-25-at-17-31-47.jpg",
     "jobTitle": "Desenvolvedor Full Stack",
     "worksFor": {
       "@type": "Organization",
