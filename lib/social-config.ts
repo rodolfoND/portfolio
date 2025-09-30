@@ -32,6 +32,6 @@ export const contactInfo = [
     icon: MapPin,
     label: "Localização",
     value: "Pará de Minas, MG - Brasil",
-    link: "#",
+    link: "https://maps.app.goo.gl/eahLhokCUCQ9dkAy6",
   },
 ];

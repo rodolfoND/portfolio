@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 import { Button } from './ui/button'
 import { Input } from './ui/input'
 import { Textarea } from './ui/textarea'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { socialLinks, contactInfo } from '../lib/social-config'
 
 export function ContactSection() {
@@ -18,6 +18,18 @@ export function ContactSection() {
     subject: '',
     message: ''
   })
+
+  useEffect(() => {
+    if (state.succeeded) {
+      alert('Mensagem enviada com sucesso! Obrigado pelo contato.');
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
+    }
+  }, [state.succeeded])
 
   return (
     <section id="contato" className="py-20 w-full overflow-x-hidden">
@@ -124,7 +136,7 @@ export function ContactSection() {
                   >
                     <Button 
                       type="submit" 
-                      className="w-full bg-[#1e40af] hover:bg-[#1e3a8a] text-white group"
+                      className="w-full bg-[#1e40af] hover:bg-[#1e3a8a] text-white group cursor-pointer"
                       size="lg"
                     >
                       <Mail className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
@@ -156,6 +168,8 @@ export function ContactSection() {
                     transition={{ duration: 0.4, delay: index * 0.1 }}
                     viewport={{ once: true }}
                     whileHover={{ scale: 1.02, x: 10 }}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 rounded-lg bg-muted/50 hover:bg-muted transition-all duration-300 group"
                   >
                     <div className="w-12 h-12 bg-[#1e40af]/10 rounded-full flex items-center justify-center group-hover:bg-[#1e40af] group-hover:text-white transition-all duration-300">

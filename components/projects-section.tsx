@@ -26,7 +26,7 @@ export function ProjectsSection() {
     {
       title: 'Sistema para Consultoria Financeira',
       description: 'Website para uma empresa de consultoria financeira para oficinas mecânicas.',
-      image: 'https://sistema.paulomaiaconsultoria.com.br/images/logo_black.png',
+      image: 'https://plus.unsplash.com/premium_photo-1658527057580-f473648a16d9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       technologies: ['React', 'Firebasee', 'TypeScript', 'Vercel'],
       demo: 'https://sistema.paulomaiaconsultoria.com.br',
       featured: false,
